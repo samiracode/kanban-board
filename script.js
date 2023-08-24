@@ -96,3 +96,8 @@ function updateDOM() {
 
 }
 
+// On Load
+updateDOM();
+
+
+
