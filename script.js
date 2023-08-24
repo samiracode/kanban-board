@@ -80,6 +80,10 @@ function updateDOM() {
   });
 
   // Complete Column
+  completeList.textContent = '';
+  completeListArray.forEach((completeItem, index) => {
+    createItemEl(completeList,0, completeItem, index);
+  });
 
   // On Hold Column
 
