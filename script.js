@@ -70,10 +70,14 @@ function updateDOM() {
   // Backlog Column
   backlogList.textContent = '';
   backlogListArray.forEach((backlogItem, index) => {
-    createItemEl(backlogList,0)
+    createItemEl(backlogList,0, backlogItem, index);
   });
 
   // Progress Column
+  progressList.textContent = '';
+  progressListArray.forEach((progressItem, index) => {
+    createItemEl(progressList,0, progressItem, index);
+  });
 
   // Complete Column
 
