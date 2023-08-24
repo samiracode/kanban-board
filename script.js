@@ -86,6 +86,10 @@ function updateDOM() {
   });
 
   // On Hold Column
+  onHoldList.textContent = '';
+  onHoldListArray.forEach((onHoldItem, index) => {
+    createItemEl(onHoldList,0, onHoldItem, index);
+  });
 
   // Run getSavedColumns only once, Update Local Storage
 
