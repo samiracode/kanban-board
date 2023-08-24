@@ -68,6 +68,7 @@ function updateDOM() {
   }
 
   // Backlog Column
+  backlogList.textContent = '';
 
   // Progress Column
 
