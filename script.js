@@ -10,6 +10,7 @@ const completeList = document.getElementById('complete-list');
 const onHoldList = document.getElementById('on-hold-list');
 
 // Items
+let updatedOnLoad = false;
 
 
 // Initialize Arrays
