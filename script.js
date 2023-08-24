@@ -69,6 +69,9 @@ function updateDOM() {
 
   // Backlog Column
   backlogList.textContent = '';
+  backlogListArray.forEach((backlogItem, index) => {
+    createItemEl(backlogList,0)
+  });
 
   // Progress Column
 
